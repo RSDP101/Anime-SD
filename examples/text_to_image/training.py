@@ -1,3 +1,23 @@
+'''
+Create a virtual environment
+
+cd Anime-SD/examples/text_to_image/
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install git+https://github.com/huggingface/diffusers.git
+
+pip install -U -r requirements.txt
+
+accelerate config default
+
+
+
+'''
+
+
 import os
 import subprocess
 
@@ -28,7 +48,7 @@ command = [
     "--learning_rate=1e-05",
     "--max_grad_norm=1",
     "--lr_scheduler=constant", "--lr_warmup_steps=0",
-    "--output_dir=sdxl-anime-model"
+    "--output_dir=sd-anime-model"
 ]
 
 # Execute the command
