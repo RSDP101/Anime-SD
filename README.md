@@ -29,15 +29,21 @@ Ever wanted to generate images of a particular style with the current state of t
 <table style="width: 100%; border-collapse: separate; border-spacing: 20px;">
   <tr>
     <td style="text-align: center;">
-      <img src="assets/celebrate_goal" width="300" alt="Image 1"/>
+      <img src="assets/celebrate_goal.png" width="300" alt="Image 1"/>
       <br/>
       <span style="display: block; margin-top: 5px;">Two boys celebrating a soccer goal</span>
     </td>
     <td style="text-align: center;">
-      <img src="assets/img1-anime.png" width="300" alt="Image 2"/>
+      <img src="assets/output" width="300" alt="Image 2"/>
       <br/>
       <span style="display: block; margin-top: 5px;">A portrait of a blonde man</span>
     </td>
+    <td style="text-align: center;">
+      <img src="assets/warrior.png" width="300" alt="Image 2"/>
+      <br/>
+      <span style="display: block; margin-top: 5px;">A powerful female warrior</span>
+    </td>
+
   </tr>
 </table>
 
