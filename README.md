@@ -79,12 +79,13 @@ python3 training.py
 
 Training will save model's weight to sd-anime-model.
 
-Change model and dataset configuration at the training.py script.
-Pass the prompt you want to generate at the inference.py script
-
 * Run inference on your fine-tuned model.
 ```python
 python3 inference.py
 ```
+
+You can change model and dataset configuration at the training.py script.
+Pass the prompt you want to generate at the inference.py script.
+
 
 ## Enjoy!
