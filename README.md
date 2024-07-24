@@ -46,18 +46,32 @@ Ever wanted to generate images of a particular style with the current state of t
 
 
 
+## Run the model locally:
 
-## You can run the model locally in the following ways: TODO
 * Install dependencies
-
 ```python
-def hello_world():
-    print("Hello, world!")
+git clone https://github.com/RSDP101/Anime-SD.git
+pip install virtualenv
+python -m venv venv
+source venv/bin/activate
+cd Anime-SD/examples/text_to_image/
+pip install git+https://github.com/huggingface/diffusers.git
+pip install -U -r requirements.txt
+accelerate config default
 ```
 
-* Run hello_world.py
+* Run training on a SD model and dataset. The default ones are 'CompVis/stable-diffusion-v1-4' and rod101/Anime1K.
 ```python
-python3 hello_world.py
+# Change model and dataset configuration at the training.py script.
+python3 training.py
+```
+Training will save model's weight to sd-anime-model.
+
+* Run inference on your fine-tuned model.
+```python
+# Change model and dataset configuration at the training.py script.
+# Pass the prompt you want to generate at the inference,pt script
+python3 inference.py
 ```
 
 ## Enjoy!
