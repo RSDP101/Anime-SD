@@ -3,7 +3,7 @@ Create a virtual environment
 
 cd Anime-SD/examples/text_to_image/
 
-python3 -m venv venv
+python -m venv venv
 
 source venv/bin/activate
 
