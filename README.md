@@ -7,36 +7,36 @@ Ever wanted to generate images of a particular style with the current state of t
 <table style="width: 100%; border-collapse: separate; border-spacing: 20px;">
   <tr>
     <td style="text-align: center;">
-      <img src="assets/img1.png" width="300" alt="Image 1"/>
+      <img src="assets/bunny_ears.png" width="300" alt="Image 1"/>
       <br/>
-      <span style="display: block; margin-top: 5px;">Caption for the image</span>
+      <span style="display: block; margin-top: 5px;">Girl with bunny ears</span>
     </td>
     <td style="text-align: center;">
       <img src="assets/img1-anime.png" width="300" alt="Image 2"/>
       <br/>
-      <span style="display: block; margin-top: 5px;">Caption for the image</span>
+      <span style="display: block; margin-top: 5px;">A man wearing a mask</span>
     </td>
     <td style="text-align: center;">
-      <img src="assets/img1-anime.png" width="300" alt="Image 2"/>
+      <img src="assets/master_of_fire.png" width="300" alt="Image 2"/>
       <br/>
-      <span style="display: block; margin-top: 5px;">Caption for the image</span>
+      <span style="display: block; margin-top: 5px;">A powerful man with fire around his body.</span>
     </td>
     <td style="text-align: center;">
-      <img src="assets/img1-anime.png" width="300" alt="Image 2"/>
+      <img src="assets/portrait.png" width="300" alt="Image 2"/>
       <br/>
-      <span style="display: block; margin-top: 5px;">Caption for the image</span>
+      <span style="display: block; margin-top: 5px;">An old portrait of a woman</span>
     </td>
 <table style="width: 100%; border-collapse: separate; border-spacing: 20px;">
   <tr>
     <td style="text-align: center;">
-      <img src="assets/img1.png" width="300" alt="Image 1"/>
+      <img src="assets/celebrate_goal" width="300" alt="Image 1"/>
       <br/>
-      <span style="display: block; margin-top: 5px;">Caption for the image</span>
+      <span style="display: block; margin-top: 5px;">Two boys celebrating a soccer goal</span>
     </td>
     <td style="text-align: center;">
       <img src="assets/img1-anime.png" width="300" alt="Image 2"/>
       <br/>
-      <span style="display: block; margin-top: 5px;">Caption for the image</span>
+      <span style="display: block; margin-top: 5px;">A portrait of a blonde man</span>
     </td>
   </tr>
 </table>
@@ -65,12 +65,14 @@ accelerate config default
 # Change model and dataset configuration at the training.py script.
 python3 training.py
 ```
+
 Training will save model's weight to sd-anime-model.
+
+Change model and dataset configuration at the training.py script.
+Pass the prompt you want to generate at the inference.py script
 
 * Run inference on your fine-tuned model.
 ```python
-# Change model and dataset configuration at the training.py script.
-# Pass the prompt you want to generate at the inference,pt script
 python3 inference.py
 ```
 
